@@ -113,6 +113,36 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/v0c0n1337/scripts/ref
    end,
 })
 
+local Section = SecondTab:CreateSection("Steal A Brainrot")
+
+local Button = SecondTab:CreateButton({
+   Name = "Chilli Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "Ugly Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8701910aa917b9c787729032a29520cf.lua"))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "flashh hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripture2025/FlashHub/refs/heads/main/Loader"))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "Lyez Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/0988845b2372c5ee"))()
+   end,
+})
+
 local ThirdTab = Window:CreateTab("credits")
 local Label = ThirdTab:CreateLabel("this script was made by cart")
 local Label = ThirdTab:CreateLabel("https://discord.gg/QA53PmJfBh")
