@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "xrz key system",
       Subtitle = "Key System",
@@ -132,7 +132,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8701910aa917b9
 local Button = SecondTab:CreateButton({
    Name = "flashh hub",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scripture2025/FlashHub/refs/heads/main/Loader"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripture2025/FlashHub/refs/heads/main/StealABrainrot"))()
    end,
 })
 
@@ -140,6 +140,61 @@ local Button = SecondTab:CreateButton({
    Name = "Lyez Hub",
    Callback = function()
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/0988845b2372c5ee"))()
+   end,
+})
+
+local Section = SecondTab:CreateSection("Bedwars")
+
+local Button = SecondTab:CreateButton({
+   Name = "Voidware  vape v4",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "creamyware",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CreamyWare/CreamyWare/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "normal vape v4",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Section = SecondTab:CreateSection("Dingus")
+
+local Button = SecondTab:CreateButton({
+   Name = "Carti hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/dGAC8tTZ"))()
+   end,
+})
+
+local Section = SecondTab:CreateSection("Arsenal")
+
+local Button = SecondTab:CreateButton({
+   Name = "StormWare",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99999/whitelistkeys/main/SCRIPT_VIP.lua"))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "Astro Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99999/AstrohubV2/main/astrohub.lua"))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "Valor Hub KEYLESS",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eselfins31/Valor-Hub/main/Arsenal%20Advanced/Unified_protected.lua", true))()
    end,
 })
 
